@@ -1,0 +1,4 @@
+name 'DavidSchmitt-apache'
+version '1.0.0'
+dependency 'DavidSchmitt-common', '1.0.0'
+dependency 'ripienaar-concat', '20100507'
