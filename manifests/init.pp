@@ -77,6 +77,9 @@ class apache::base {
 				require => Package["apache"], 
 				notify => Exec["reload-apache"],
 			}
+			nagios::service { "https_${apache_ssl_port_real}":
+				check_command => "https_port!${apache_ssl_port_real}"
+			}
 		}
 	}
 
