@@ -4,8 +4,6 @@ Overview
 This module manages apache2 on Debian/etch. There are defines to handle sites
 and modules the Debian Way.
 
-See also the wiki page at http://reductivelabs.com/trac/puppet/wiki/Recipes/DebianApache2Recipe
-which was originally written by Tim Stoop <tim.stoop@gmail.com>
 
 Variables
 =========
